@@ -1,0 +1,108 @@
+
+.con {
+    
+    background-color: gray;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+
+.con-item1 {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    top: 120px;
+    right: 39px;
+    
+  
+
+
+}
+
+.con-item2 {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    top: 120px;
+    left: 420px;
+   
+   
+}
+
+.flex-con{
+    display:flex ;
+    width: 50%;
+    margin: 10px;
+    margin-bottom: 0px;
+    justify-content: space-between;    
+
+}
+
+.flex-item{
+    display: flex;
+    background-color: gray;
+    height: 250px;
+    width: 200px;
+    margin: 15px;
+    margin-bottom:  0px;
+    color:white;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+  
+}
+
+#fb {
+    padding: 10px;
+}
+
+.namecon {
+    margin-top: 0px;
+    margin: 10px;
+    width: 50%;
+    display: flex;
+  
+}
+.name {
+    display: flex;
+    background-color: gray;
+    height: 50px;
+    width: 200px;
+    margin: 15px;
+    margin-top: 0px;
+    color:white;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+}
+.HOODIE {
+    display: flex;
+    background-color: gray;
+    height: 50px;
+    width: 200px;
+    margin: 15px;
+    margin-top: 0px;
+    color:white;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+}

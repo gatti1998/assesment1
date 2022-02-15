@@ -1,0 +1,54 @@
+#uniped {
+
+    margin: 0px 200px;
+}
+
+
+
+#headcontainer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #959595;
+    padding-bottom: 5px;
+   
+    
+}
+
+.top-head-taxt {
+    font-size: 15px;
+line-height: 24px;
+color: #959595;
+font-family: "Font Awesome";
+align-content: right;
+
+}
+
+.eng {
+    padding-right: 0%;
+    padding-left: 30px;
+   
+}
+.navcon {  
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.navitem  {
+    font-size: 14px;
+color: #000000;
+font-weight: 400;
+font-family: "Lato";
+margin-top: 5PX;
+
+}
+
+.year {
+    font-size: 30px;
+line-height: 30px;
+color: #252525;
+font-weight: 700;
+font-family: "Playfair Display";
+margin-top: 0PX;
+}

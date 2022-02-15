@@ -1,0 +1,66 @@
+.insta-flex {
+
+    padding: 0px;
+    height: 307px;
+    width: 307px;
+
+
+}
+.insta-item {
+    margin: 1px;
+    padding: 0px;
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#ten {
+    position: relative;
+    top: -22px;
+    height: 20px;
+    width: 129px;
+    background-color: black;
+    position: sticky left bottom; 
+    
+}
+.text {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Font Awesome";
+    text-align: center;
+    margin-top: 4px;
+
+}
+
+#con {
+    background-color: gray;
+    width: 500px;
+
+
+}
+#box {
+    padding: 10px;
+    margin: 0px;
+    display:inline block ;
+}
+.newsletter {
+    color: white;
+
+    font-size: -webkit-xxx-large;
+
+}
+.email {
+    margin: 10px 0px;
+    padding: 5px;
+
+}
+span {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.sign {
+    padding: 10px auto;
+}
