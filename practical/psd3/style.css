@@ -1,0 +1,75 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {color: #555555;font-size: 16px; max-width: 1170px;margin: auto;}
+img {max-width: 1000%;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #555555;}
+.text-center {text-align: center;}
+.container {width: 1170px; margin: 0 auto; max-width: 100%;}
+/* UTILITY */
+.d-flex {display: flex;}
+.d-block {display: block;}
+.align-items-center {align-items: center;}
+.ml-auto {margin-left: auto;}
+.mr-auto {margin-right: auto;}
+
+.mt-1 {margin-top: 5px;}
+.mt-2 {margin-top: 10px;}
+.mt-3 {margin-top: 15px;}
+.mt-4 {margin-top: 20px;}
+
+.mb-1 {margin-bottom: 5px;}
+.mb-2 {margin-bottom: 10px;}
+.mb-3 {margin-bottom: 15px;}
+.mb-4 {margin-bottom: 20px;}
+
+.ml-1 {margin-left: 5px;}
+.ml-2 {margin-left: 10px;}
+.ml-3 {margin-left: 15px;}
+.ml-4 {margin-left: 20px;}
+
+.mr-1 {margin-right: 5px;}
+.mr-2 {margin-right: 10px;}
+.mr-3 {margin-right: 15px;}
+.mr-4 {margin-right: 20px;}
+
+.pt-1 {padding-top: 5px;}
+.pt-2 {padding-top: 10px;}
+.pt-3 {padding-top: 15px;}
+.pt-4 {padding-top: 20px;}
+
+.pb-1 {padding-bottom: 5px;}
+.pb-2 {padding-bottom: 10px;}
+.pb-3 {padding-bottom: 15px;}
+.pb-4 {padding-bottom: 20px;}
+
+.pl-1 {padding-left: 5px;}
+.pl-2 {padding-left: 10px;}
+.pl-3 {padding-left: 15px;}
+.pl-4 {padding-left: 20px;}
+
+.pr-1 {padding-right: 5px;} 
+.pr-2 {padding-right: 10px;}
+.pr-3 {padding-right: 15px;}
+.pr-4 {padding-right: 20px;}
+
+/* top-bar */
+.top-bar {border-bottom: 1px solid rgb(209, 204, 204);}
+.top-bar-links {margin-left: 40px;}
+/* nav */
+.nav-items {margin-left: 50px;}
+/* slider */
+.main-slider {height: 700px; width: 100%; background-image: url(../psd3/assets/img/slider.jpg); background-position: 100%; background-repeat: no-repeat; background-size: cover ;color: white; text-transform: uppercase}
+/* modules */
+.modules {width: 390px;height: 160px; border: 1px solid black; align-items: center; justify-items: center;}
+.module-box {background-color: antiquewhite;align-items: center; margin-left: 30px;}
+.module-box img {height: 100px; width: 100px;}
+/* new-item */
+.new-items-container {margin-top: 80px;}
+/* item-slider */
+.items-slider {justify-content: space-between;}
+.slid-img {height: 320px; width: 270px; background-image: url(../psd3/assets/img/hooded\ jacket.webp); background-repeat: no-repeat;background-size: cover;justify-content:center;align-items: flex-end;}
+.slid-img-tag {padding: 0px 5px; font-size: 10px;color: white; background-color: blue;}
+.slid-item-text {margin-top: 10px;}
+.item-name {font-size:15px;color: black;}
+.item-price {font-size: 14px;}
