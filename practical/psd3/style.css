@@ -9,9 +9,12 @@ a{text-decoration: none; color: #555555;}
 /* UTILITY */
 .d-flex {display: flex;}
 .d-block {display: block;}
+.d-grid {display: grid;}
 .align-items-center {align-items: center;}
+.ma {margin: auto;}
 .ml-auto {margin-left: auto;}
 .mr-auto {margin-right: auto;}
+.heading {}
 
 .mt-1 {margin-top: 5px;}
 .mt-2 {margin-top: 10px;}
@@ -73,3 +76,43 @@ a{text-decoration: none; color: #555555;}
 .slid-item-text {margin-top: 10px;}
 .item-name {font-size:15px;color: black;}
 .item-price {font-size: 14px;}
+
+/* grid-container */
+.grid-container {margin-top: 50px; height: 590px;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 280px 280px;
+    justify-content: space-between;
+    align-content: space-between;}
+.grid-items {background-color: #555555;color: white;}
+.grid-2 {grid-area: 1/2/3/3;}
+
+/* hot-items-container */
+.hot-items-container {margin-top: 80px;}
+
+/* multi-item-container */
+.multi-container {justify-content: space-between;margin-top: 50px;}
+.multi-container-item {width: 370px;height: 430px;}
+.small-img-text img {height: 120px;width: 100px;background-size: cover;}
+.big-img-and-text img {height: 120px;width: 370px;background-size: cover;}
+.multi-container-item-text {margin-left: 20px;}
+/* services */
+
+.services {height: 180px; width: 50%; border: 1px solid black;justify-content: center;margin-top: 50px;}
+.service-text {margin-top: 55px;}
+.service-text h3,h5,h6 {margin: 10px 0px;}
+
+/* news-letter */
+
+.news-letter {height: 374px; width: 770px; background-color: #cccccc;align-content: center;}
+.instagram {height: 370px; width: 374px; position: relative;}
+.insta-item {height: 122px; width: 122px; background-color:#cccccc; display: inline-block;}
+.insta-tag {background-color: black;color: white; position: absolute;top: 346px;padding: 5px;}
+
+/* instagram */
+.news-letter {height: 370px; width: 770px; background-color: #cccccc;}
+
+/* site-bottom */
+.site-bottom {align-items: center;}
+.site-bottom-left {align-items: center;}
+.site-bottom-left-links {margin-right: 30px;}
+.site-bottom-right-links {margin-left: 30px;}
