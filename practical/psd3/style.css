@@ -3,8 +3,7 @@
 body {color: #555555;font-size: 16px; max-width: 1170px;margin: auto;}
 img {max-width: 1000%;}
 ul,li{list-style: none;}
-a{text-decoration: none; color: #555555;}
-.a2 {text-decoration: none; color: blue;}
+a { text-decoration: none; color: #1ba3d9;}
 .text-center {text-align: center;}
 .container {width: 1170px; margin: 0 auto; max-width: 100%;}
 /* UTILITY */
@@ -15,7 +14,7 @@ a{text-decoration: none; color: #555555;}
 .ma {margin: auto;}
 .ml-auto {margin-left: auto;}
 .mr-auto {margin-right: auto;}
-.heading {}
+
 
 .mt-1 {margin-top: 5px;}
 .mt-2 {margin-top: 10px;}
@@ -61,12 +60,20 @@ a{text-decoration: none; color: #555555;}
 .top-bar {border-bottom: 1px solid rgb(209, 204, 204);}
 .top-bar-links div {margin-left: 50px;}
 .top-bar-links div li {margin-left: 20px;}
-.top-bottom-bar-link-font,.top-bar a,.site-bottom a {font-size: 12px;line-height: 24px;color: #959595;font-weight: 400;font-family: "Lato";}
+.top-bottom-bar-link-font,.top-bar a,.site-bottom a {text-decoration: none; font-size: 12px;line-height: 24px;color: #959595;font-weight: 400;font-family: "Lato";}
 /* nav */
-.nav-items {margin-left: 50px;}
+.nav-items {margin-left: 50px;position: relative;}
+.nav-items a:hover:before {content: ""; background-image: url(../psd3/assets/img/hover-effect.png);height: 7px; width: 21px; background-repeat: no-repeat; position: absolute;top: -10px; left: 50%; margin-left: -10px;}
 .nav-bar-link-font a{font-size: 14px;color: #000000;font-weight: 400;font-family: "Lato";}
+.cart {position: relative;z-index: 0;}
+.notification {height: 15px; width: 15px;font-size: 10px;align-items: center;justify-content: center;background-color: red;color: white;border-radius: 50px;position: absolute; left: 9px;bottom: 12px;z-index: 1;}
 /* slider */
-.main-slider {height: 700px; width: 100%; background-image: url(../psd3/assets/img/slider.jpg); background-position: 100%; background-repeat: no-repeat; background-size: cover ;color: white; text-transform: uppercase}
+.main-slider {height: 700px; width: 100%; background-image: url(../psd3/assets/img/slider.jpg); background-position: 100%; background-repeat: no-repeat; background-size: cover ;color: white; text-transform: uppercase;justify-content: center;flex-direction: column;}
+.slider-tex-middel {align-self: center;margin-top: auto;}
+.slider-text-bottom {align-self: center;margin-top: auto;padding-bottom: 10px;}
+.left-btn {height: 100px; width: 100px;}
+
+
 /* modules */
 .modules {width: 390px;height: 160px; border: 1px solid black; align-items: center; justify-items: center;}
 .module-box {background-color: antiquewhite;align-items: center; margin-left: 30px;}
@@ -79,23 +86,33 @@ a{text-decoration: none; color: #555555;}
 .trand-item-subheading-font {font-size: 16px;letter-spacing: 2px;color: #000000;font-weight: 400;font-style: italic;font-family: "Playfair Display";}
 /* item-slider */
 .items-slider {justify-content: space-between;margin-top: 50px;}
-.slid-img {height: 320px; width: 270px; background-image: url(../psd3/assets/img/hooded\ jacket.webp); background-repeat: no-repeat;background-size: cover;justify-content:center;align-items: flex-end;}
-.slid-img-tag {padding: 0px 5px; font-size: 10px;color: white; background-color: blue;}
+.slid-img {height: 320px; width: 270px;background-repeat: no-repeat;background-size: cover;justify-content:center;align-items: flex-end;}
+.n-img-1 { background-image: url(../psd3/assets/img/HOODED\ JACKET1.jpeg); }
+.n-img-2 { background-image: url(../psd3/assets/img/FINE-KNIT\ CARDIGAN1.jpg); }
+.n-img-3 { background-image: url(../psd3/assets/img/LIGHT\ PINK\ PARKA.jpg); }
+.n-img-4 { background-image: url(../psd3/assets/img/DENIM\ DRESS.jpg); }
+
+/* .slid-img-tag {padding: 0px 5px; font-size: 10px;color: white; background-color: blue;} */
 .slid-item-text {margin-top: 10px;}
 .trand-item-product-font {font-size: 14px;color: #000000;font-weight: 400;font-family: "Lato";text-transform: uppercase;}
 .trand-item-price-font {font-size: 14px;color: #959595;font-weight: 400;font-style: italic;font-family: "Lato";}
 
 /* grid-container */
-.grid-container {margin-top: 50px; height: 590px;
-    grid-template-columns: 370px 370px 370px;
-    grid-template-rows: 280px 280px;
-    justify-content: space-between;
-    align-content: space-between;}
-.grid-items {background-color: #555555;color: white;}
-.grid-2 {grid-area: 1/2/3/3;}
+.grid-container {margin-top: 50px; height: 590px;grid-template-columns: 370px 370px 370px;grid-template-rows: 280px 280px;justify-content: space-between;align-content: space-between;}
+.grid-items {background-color: #555555;color: white;text-align: center;justify-content: center;align-items: center;background-repeat: no-repeat;background-size: cover;}
+.grid-1 {background-image: url(../psd3/assets/img/DENIM-grid.jpg);}
+.grid-2 {grid-area: 1/2/3/3;background-image: url(../psd3/assets/img/T-shirts\ &\ Vests-grid.jpg);}
+.grid-4 {background-image: url(../psd3/assets/img/ACCESSORIES-grid.jpg.crdownload);}
+.grid-5 {background-image: url(../psd3/assets/img/SHOES-grid.jpg);}
+.grid-heading-font {font-size: 20px;color: #ffffff;font-weight: 900;font-family: "Lato";text-transform: uppercase;}
+.grid-sub-heading-font {font-size: 16px;letter-spacing: 2px;color: #ffffff;font-weight: 400;font-style: italic;font-family: "Playfair Display";}
 
 /* hot-items-container */
 .hot-items-container {margin-top: 80px;}
+.h-img-1 { background-image: url(../psd3/assets/img/hooded\ jacket.jpg); }
+.h-img-2 { background-image: url(../psd3/assets/img/NY.C\ SWEATSHIRT\ 2.jpg); }
+.h-img-3 { background-image: url(../psd3/assets/img/BATMEN\ T-SHIRT\ 2.jpg); }
+.h-img-4 { background-image: url(../psd3/assets/img/DENIM\ SHORTS.jpg); }
 
 /* multi-item-container */
 .multi-container {justify-content: space-between;margin-top: 50px;}
@@ -103,6 +120,7 @@ a{text-decoration: none; color: #555555;}
 .small-img-text img {height: 120px;width: 100px;background-size: cover;}
 .big-img-and-text img {height: 120px;width: 370px;background-size: cover;}
 .multi-container-item-text {margin-left: 20px;}
+
 /* services */
 
 .services {height: 180px; width: 50%; border: 1px solid black;justify-content: center;margin-top: 50px;}
@@ -115,18 +133,11 @@ a{text-decoration: none; color: #555555;}
 .instagram {height: 370px; width: 374px; position: relative;}
 .insta-item {height: 122px; width: 122px; background-color:#cccccc; display: inline-block;}
 .insta-tag {background-color: black;color: white; position: absolute;top: 346px;padding: 5px;}
-.news-letter-container div {margin: 20px 0px;}
+.news-letter-container div {margin: 20px 0px; align-items: center;}
 .email-box {height: 60px; width: 500px;}
-.submit-box {height: 60px; width: 170px;color: white; background-color: red;d}
+.submit-box {height: 60px; width: 170px;color: white; background-color: red;font-size: 18px;line-height: 30px;color: #ffffff;font-weight: 700;font-family: "Playfair Display";text-transform: uppercase;border: none;}
 .newsletter {font-size: 72px;line-height: 85px;color: #000000;font-weight: 400;font-family: "Playfair Display";}
-.signup {width: 450px;
-    height: 52px;
-    font-size: 16px;
-    line-height: 30px;
-    color: #000000;
-    font-weight: 400;
-    font-style: italic;
-    font-family: "Playfair Display";}
+.signup {width: 450px;height: 52px;font-size: 16px;line-height: 30px;color: #000000;font-weight: 400;font-style: italic;font-family: "Playfair Display";}
 
 /* site-bottom */
 .site-bottom {align-items: center;}
@@ -134,3 +145,9 @@ a{text-decoration: none; color: #555555;}
 .site-bottom-left-links {margin-right: 30px;}
 .site-bottom-right-links {margin-left: 30px;}
 
+/* tag */
+.tag {padding: 0px 5px; font-size: 10px;color: white;text-transform: uppercase;text-align: center;display: inline;}
+.tag-blue {background-color: #5064fa;}
+.tag-yellow {background-color: #fad232;}
+.tag-green {background-color: #b4d93d;}
+.tag-gray {background-color: #959595;}

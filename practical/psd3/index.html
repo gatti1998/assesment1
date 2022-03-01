@@ -50,7 +50,10 @@
                     <li class="nav-items"><a href="#">PAGES</a></li>
                     <li class="nav-items"><a href="#">CONTACT</a></li>
                     <li class="nav-items"><a href="#"><i class="fa fa-search"></i></a></li>
-                    <li class="nav-items"><a href="#"><i class="fa fa-cart-shopping"></i></a></li>
+                    <li class="nav-items cart">
+                        <a href="#"><i class="fa fa-cart-shopping"></i></a>
+                        <span class="notification d-flex">1</span>
+                    </li>
                 </ul>
             </div>
 
@@ -58,26 +61,28 @@
 
         <!-- slider -->
 
-        <div class="main-slider container mt-4">
-            <div class="slider-tex-middel">
-                <h1 class="sale">SALE</h1>
-                <h1>30% OFF</h1>
-                <button>SHOP NOW</button>
+        <div class="main-slider container d-flex mt-4">
+
+            <div class="slider-tex-middel text-center">
+                <div>SALE</div>
+                <div>30% OFF</div>
+                <div><button>SHOP NOW</button></div>
             </div>
 
-            <div class="slider-text-bottom">
-                <sup>3</sup>/<sub>5</sub>
-                <h1>sale end season</h1>
-                <h1>fall/writer 2013</h1>
-
+            <div class="slider-text-bottom text-center">
+                <div><sup>3</sup>/<sub>5</sub></div>
+                <div>sale end season</div>
+                <div>fall/writer 2013</div>
             </div>
+            <i class="fa-duotone fa-square-arrow-right"></i>
+
         </div>
     </header>
     <!-- module -->
 
     <div class="container d-flex mt-4">
         <div class="modules d-flex">
-            <div class="module-box d-flex"><img src="../psd3/assets/img/module-box-img1.png" alt="">
+            <div class="module-box d-flex"><img src="../psd3/assets/img/new-tshirt.jpg" alt="">
             </div>
             <div class="module-text ml-4">
                 <h3 class="module-heading-font">NEW T-SHIRT</h3>
@@ -85,19 +90,19 @@
             </div>
         </div>
         <div class="modules d-flex">
-            <div class="module-box d-flex"><img src="../psd3/assets/img/module-box-img1.png" alt="">
+            <div class="module-box d-flex"><img src="../psd3/assets/img/Kid Accessories.jpg" alt="">
             </div>
             <div class="module-text ml-4">
-                <h3 class="module-heading-font">NEW T-SHIRT</h3>
-                <h6 class="module-subheading-font">It’s always the summer times</h6>
+                <h3 class="module-heading-font">Kid Accessories</h3>
+                <h6 class="module-subheading-font">Bowtie, cap, bag, shoes, glasses,...</h6>
             </div>
         </div>
         <div class="modules d-flex">
-            <div class="module-box d-flex"><img src="../psd3/assets/img/module-box-img1.png" alt="">
+            <div class="module-box d-flex"><img src="" alt="img">
             </div>
             <div class="module-text ml-4">
-                <h3 class="module-heading-font">NEW T-SHIRT</h3>
-                <h6 class="module-subheading-font">It’s always the summer times</h6>
+                <h3 class="module-heading-font">NVideo campaign</h3>
+                <h6 class="module-subheading-font">S/S 2015 Collection</h6>
             </div>
         </div>
     </div>
@@ -114,8 +119,8 @@
     <!-- new-item-slider -->
     <div class="items-slider d-flex">
         <div class="slid-items d-block">
-            <div class="slid-img d-flex">
-                <div class="slid-img-tag">EDITOR'S CHOICE</div>
+            <div class="slid-img n-img-1 d-flex">
+                <div class="tag tag-blue">EDITOR'S CHOICE</div>
             </div>
             <div class="slid-item-text text-center">
                 <div class="trand-item-product-font mt-2">HOODED JACKET</div>
@@ -123,29 +128,29 @@
             </div>
         </div>
         <div class="slid-items d-block">
-            <div class="slid-img d-flex">
-                <div class="slid-img-tag">EDITOR'S CHOICE</div>
+            <div class="slid-img n-img-2 d-flex">
+                <!-- <div class="tag tag-">EDITOR'S CHOICE</div> -->
             </div>
             <div class="slid-item-text text-center">
-                <div class="trand-item-product-font mt-2">HOODED JACKET</div>
-                <div class="trand-item-price-font mt-1">$ 29.90</div>
+                <div class="trand-item-product-font mt-2">Fine-knit cardigan</div>
+                <div class="trand-item-price-font mt-1">$ 19.90</div>
             </div>
         </div>
         <div class="slid-items d-block">
-            <div class="slid-img d-flex">
-                <div class="slid-img-tag">EDITOR'S CHOICE</div>
+            <div class="slid-img n-img-3 d-flex">
+                <div class="tag tag-yellow">exclusive</div>
             </div>
             <div class="slid-item-text text-center">
-                <div class="trand-item-product-font mt-2">HOODED JACKET</div>
-                <div class="trand-item-price-font mt-1">$ 29.90</div>
+                <div class="trand-item-product-font mt-2">Light pink Parka</div>
+                <div class="trand-item-price-font mt-1">$ 49.90</div>
             </div>
         </div>
         <div class="slid-items d-block">
-            <div class="slid-img d-flex">
-                <div class="slid-img-tag">EDITOR'S CHOICE</div>
+            <div class="slid-img n-img-4 d-flex">
+                <!-- <div class="tag tag-">EDITOR'S CHOICE</div> -->
             </div>
             <div class="slid-item-text text-center">
-                <div class="trand-item-product-font mt-2">HOODED JACKET</div>
+                <div class="trand-item-product-font mt-2">Denim dress</div>
                 <div class="trand-item-price-font mt-1">$ 29.90</div>
             </div>
         </div>
@@ -154,11 +159,36 @@
     <!-- grid-box -->
 
     <div class="grid-container d-grid">
-        <div class="grid-items grid-1">1</div>
-        <div class="grid-items grid-2">2</div>
-        <div class="grid-items grid-3">3</div>
-        <div class="grid-items grid-4">4</div>
-        <div class="grid-items grid-5">5</div>
+        <div class="grid-items grid-1 d-flex">
+            <div>
+                <h1 class="grid-heading-font">denim</h1>
+                <h1 class="grid-sub-heading-font">Trand of Season</h1>
+            </div>
+        </div>
+        <div class="grid-items grid-2 d-flex">
+            <div>
+                <h1 class="trand-item-product-font">T-shirts & Vests</h1>
+                <!-- <h1 class="grid-sub-heading-font">Trand of Season</h1> -->
+            </div>
+        </div>
+        <div class="grid-items grid-3 d-flex">
+            <div>
+                <!-- <h1 class="grid-heading-font">denim</h1>
+                <h1 class="grid-sub-heading-font">Trand of Season</h1> -->
+            </div>
+        </div>
+        <div class="grid-items grid-4 d-flex">
+            <div>
+                <h1 class="grid-heading-font">Accessories</h1>
+                <h1 class="grid-sub-heading-font">Study hard, style harder</h1>
+            </div>
+        </div>
+        <div class="grid-items grid-5 d-flex">
+            <div>
+                <h1 class="grid-heading-font">Shoes</h1>
+                <h1 class="grid-sub-heading-font">New shoes for Spring</h1>
+            </div>
+        </div>
     </div>
 
     <!-- hot-items -->
@@ -175,8 +205,8 @@
 
     <div class="items-slider d-flex">
         <div class="slid-items d-block">
-            <div class="slid-img d-flex">
-                <div class="slid-img-tag">EDITOR'S CHOICE</div>
+            <div class="slid-img h-img-1 d-flex">
+                <!-- <div class="tag tag-blue">EDITOR'S CHOICE</div>                 -->
             </div>
             <div class="slid-item-text text-center">
                 <div class="trand-item-product-font mt-2">HOODED JACKET</div>
@@ -184,30 +214,31 @@
             </div>
         </div>
         <div class="slid-items d-block">
-            <div class="slid-img d-flex">
-                <div class="slid-img-tag">EDITOR'S CHOICE</div>
+            <div class="slid-img h-img-2 d-flex">
+                <div class="tag tag-gray">sale off</div>
             </div>
             <div class="slid-item-text text-center">
-                <div class="trand-item-product-font mt-2">HOODED JACKET</div>
-                <div class="trand-item-price-font mt-1">$ 29.90</div>
+                <div class="trand-item-product-font mt-2">NY.C Sweatshirt</div>
+                <div class="trand-item-price-font mt-1"><span>$ 35.90</span> <span class="trand-item-price-font mt-1"
+                    style="color: black">$ 14.90</span></div>
             </div>
         </div>
         <div class="slid-items d-block">
-            <div class="slid-img d-flex">
-                <div class="slid-img-tag">EDITOR'S CHOICE</div>
+            <div class="slid-img h-img-3 d-flex">
+                <div class="tag tag-green">new</div>
             </div>
             <div class="slid-item-text text-center">
-                <div class="trand-item-product-font mt-2">HOODED JACKET</div>
-                <div class="trand-item-price-font mt-1">$ 29.90</div>
+                <div class="trand-item-product-font mt-2">Batmen t-shirt</div>
+                <div class="trand-item-price-font mt-1">$ 35.90</div>
             </div>
         </div>
         <div class="slid-items d-block">
-            <div class="slid-img d-flex">
-                <div class="slid-img-tag">EDITOR'S CHOICE</div>
+            <div class="slid-img h-img-4 d-flex">
+                <!-- <div class="tag tag-yellow">EDITOR'S CHOICE</div> -->
             </div>
             <div class="slid-item-text text-center">
-                <div class="trand-item-product-font mt-2">HOODED JACKET</div>
-                <div class="trand-item-price-font mt-1">$ 29.90</div>
+                <div class="trand-item-product-font mt-2">Denim shorts</div>
+                <div class="trand-item-price-font mt-1">$ 39.90</div>
             </div>
         </div>
     </div>
@@ -222,27 +253,27 @@
                 <i class="fa fa-circle-plus ml-auto"></i>
             </div>
             <div class="small-img-text d-flex mt-4">
-                <div class="small-img"><img src="../psd3/assets/img/x1.jpeg" alt=""></div>
+                <div class="small-img"><img src="../psd3/assets/img/HOODED JACKET-2.jpg" alt=""></div>
                 <div class="multi-container-item-text mt-4">
-                    <h4 class="trand-item-product-font">HOODED</h4>
-                    <h6 class="trand-item-price-font">$29.90</h6>
-                    <h6>choice</h6>
+                    <h4 class="trand-item-product-font">Hooded jacket</h4>
+                    <h6 class="trand-item-price-font">$ 29.90</h6>
+                    <h6 class="tag tag-blue">Editor’s choice</h6>
                 </div>
             </div>
             <div class="small-img-text d-flex mt-4">
-                <div class="small-img"><img src="../psd3/assets/img/x1.jpeg" alt=""></div>
+                <div class="small-img"><img src="../psd3/assets/img/BATMEN T-SHIRT 2.jpg" alt=""></div>
                 <div class="multi-container-item-text mt-4">
-                    <h4 class="trand-item-product-font">HOODED</h4>
-                    <h6 class="trand-item-price-font">$29.90</h6>
-                    <h6>choice</h6>
+                    <h4 class="trand-item-product-font">Batmen t-shirt</h4>
+                    <h6 class="trand-item-price-font">$ 35.90</h6>
+                    <h6 class="tag tag-green">choice</h6>
                 </div>
             </div>
             <div class="small-img-text d-flex mt-4">
-                <div class="small-img"><img src="../psd3/assets/img/x1.jpeg" alt=""></div>
+                <div class="small-img"><img src="../psd3/assets/img/LIGHT PINK PARKA 2.jpg" alt=""></div>
                 <div class="multi-container-item-text mt-4">
-                    <h4 class="trand-item-product-font">HOODED</h4>
-                    <h6 class="trand-item-price-font">$29.90</h6>
-                    <h6>choice</h6>
+                    <h4 class="trand-item-product-font">Light pink parka</h4>
+                    <h6 class="trand-item-price-font">$ 49.90</h6>
+                    <h6 class="tag tag-yellow">Exclusive</h6>
                 </div>
             </div>
         </div>
@@ -254,27 +285,28 @@
                 <i class="fa fa-circle-plus ml-auto"></i>
             </div>
             <div class="small-img-text d-flex mt-4">
-                <div class="small-img"><img src="../psd3/assets/img/x1.jpeg" alt=""></div>
+                <div class="small-img"><img src="../psd3/assets/img/LIGHT PINK PARKA 2.jpg" alt=""></div>
                 <div class="multi-container-item-text mt-4">
-                    <h4 class="trand-item-product-font">HOODED</h4>
-                    <h6 class="trand-item-price-font">$29.90</h6>
-                    <h6>choice</h6>
+                    <h4 class="trand-item-product-font">Light pink parka</h4>
+                    <h6 class="trand-item-price-font">$ 49.90</h6>
+                    <h6 class="tag tag-yellow">Exclusive</h6>
                 </div>
             </div>
             <div class="small-img-text d-flex mt-4">
-                <div class="small-img"><img src="../psd3/assets/img/x1.jpeg" alt=""></div>
+                <div class="small-img"><img src="../psd3/assets/img/NY.C SWEATSHIRT 2.jpg" alt=""></div>
                 <div class="multi-container-item-text mt-4">
-                    <h4 class="trand-item-product-font">HOODED</h4>
-                    <h6 class="trand-item-price-font">$29.90</h6>
-                    <h6>choice</h6>
+                    <h4 class="trand-item-product-font">NY.c Sweatshirt</h4>
+                    <h6 class="trand-item-price-font"><span>$ 35.90</span> <span class="trand-item-price-font mt-1"
+                        style="color: black">$ 14.90</span></h6>
+                    <h6 class="tag tag-gray">sale off</h6>
                 </div>
             </div>
             <div class="small-img-text d-flex mt-4">
-                <div class="small-img"><img src="../psd3/assets/img/x1.jpeg" alt=""></div>
+                <div class="small-img"><img src="../psd3/assets/img/DENIM SHORTS.jpg" alt=""></div>
                 <div class="multi-container-item-text mt-4">
-                    <h4 class="trand-item-product-font">HOODED</h4>
-                    <h6 class="trand-item-price-font">$29.90</h6>
-                    <h6>choice</h6>
+                    <h4 class="trand-item-product-font">Denim shorts</h4>
+                    <h6 class="trand-item-price-font">$ 39.90</h6>
+                    <h6 class="tag tag-green">new</h6>
                 </div>
             </div>
         </div>
@@ -282,27 +314,25 @@
         <!-- from-the-blog -->
         <div class="multi-container-item editors-choice">
             <div class="heading d-flex align-items-center">
-                <h3 class="trand-item-heading-font">editors</h3>
+                <h3 class="trand-item-heading-font">From the blog</h3>
                 <i class="fa fa-circle-plus ml-auto"></i>
             </div>
 
             <div class="big-img-and-text mt-4">
-                <div class="big-img"><img src="../psd3/assets/img/big-img-1.png" alt=""></div>
+                <div class="big-img"><img src="../psd3/assets/img/10 HOT TREND IN THIS SPRING.jpg" alt=""></div>
                 <div class="big-img-text mt-3">
                     <h4 class="trand-item-product-font">10 hot trend in this Spring.</h4>
-                    <h6><a href="#">READ MORE <i class="fa fa-angle-right"></i></a></h6>
+                    <h6><a href="#">Read more <i class="fa fa-angle-right"></i></a></h6>
                 </div>
             </div>
 
-            <div class="big-img-and-text mt-2">
-                <div class="big-img"><img src="../psd3/assets/img/big-img-1.png" alt=""></div>
+            <div class="big-img-and-text mt-4">
+                <div class="big-img"><img src="../psd3/assets/img/STYLES FOR THE SUMMER HOLLIDAY.jpg" alt=""></div>
                 <div class="big-img-text mt-3">
-                    <h4>10 hot trend in this Spring.</h4>
-                    <h6><a href="#">READ MORE <i class="fa fa-angle-right"></i></a></h6>
+                    <h4 class="trand-item-product-font">Styles for the summer holliday.</h4>
+                    <h6><a href="#">Read more <i class="fa fa-angle-right"></i></a></h6>
                 </div>
             </div>
-
-
 
         </div>
 
@@ -320,8 +350,8 @@
             </div>
             <div class="services text-center">
                 <div class="service-text">
-                    <h3 class="trand-item-heading-font">FREE SHIPPING</h3>
-                    <h5 class="trand-item-subheading-font">For standard orders over 50 USD</h5>
+                    <h3 class="trand-item-heading-font">Free returns</h3>
+                    <h5 class="trand-item-subheading-font">For standard orders in 30 days</h5>
                     <h6><a href="#">More info here<i class="fa fa-angle-right"></i></a></h6>
                 </div>
             </div>
@@ -336,11 +366,13 @@
                     <div class="newsletter">Newsletter</div>
                     <div class="email">
                         <form>
-                            <input type="email" placeholder="   Enter email address" name="email" id="" class="email-box">
-                            <input type="button" value="submit" class="submit-box">
+                            <input type="email" placeholder="   Enter email address" name="email" id=""
+                                class="email-box">
+                            <input class="submit-box" type="button" value="submit" >
                         </form>
                     </div>
-                    <div class="signup">Sign up to receive the lastest fashion, trend and culture via email and get exclusive offers from 1992’s Shop.</div>
+                    <div class="signup">Sign up to receive the lastest fashion, trend and culture via email and get
+                        exclusive offers from 1992’s Shop.</div>
                 </div>
             </div>
             <div class="instagram ml-auto">
@@ -353,7 +385,7 @@
                 <div class="insta-item"></div>
                 <div class="insta-item"></div>
                 <div class="insta-item"></div>
-                <div class="insta-tag"><i class="fa-brand fa-intagram"></i>@1992shop_online</div>
+                <div class="insta-tag"> <i class="fa-brands fa-instagram"></i> @1992shop_online</div>
             </div>
         </div>
 
