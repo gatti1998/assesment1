@@ -88,9 +88,11 @@ a{text-decoration: none;}
 /* new-item */
 /* .items-container {margin: auto;} */
 .sub-item-container {width: 370px; justify-content: space-between;}
-.item-img {width: 170px;height: 200px;justify-content: center;align-items: end;}
-.bg-img {background-repeat: no-repeat;background-size: 100% 100%;}
+.item-img {}
+.bg-img{background-repeat: no-repeat;background-size: 100% 100%;width: 170px;height: 200px;justify-content: center;align-items: end;}
 .img-1 {background-image: url(./assets/img/LIGHT\ PINK\ PARKA.jpg);}
+.bg-img:hover {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./assets/img/LIGHT\ PINK\ PARKA.jpg);}
+/* .item-img:hover  */
 .look-book-f3 {font-size: 20px;color: #000000;font-weight: 900;font-family: "Lato";text-transform: uppercase;}
 .look-book-f4 {font-size: 16px;letter-spacing: 2px;color: #000000;font-weight: 400;font-style: italic;font-family: "Playfair Display";text-transform: capitalize;}
 .look-book-f5 {font-size: 14px;color: #000000;font-weight: 400;font-family: "Lato"; text-transform: uppercase;}
