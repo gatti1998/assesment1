@@ -4,7 +4,7 @@ img {max-width: 1000%}
 ul,li{list-style: none}
 a{text-decoration: none;}
 /* Utility */
-.d-flex {display: flex;}
+.d-flex {display: flex; flex-wrap: wrap;}
 .d-block {display: block;}
 .d-grid {display: grid;}
 .align-items-center {align-items: center;}
@@ -57,7 +57,7 @@ a{text-decoration: none;}
 .container {width: 100%}
 
 /* top-bar */
-.top-bar,header a,.f-1,.bottom a{font-size: 16px;line-height: 24px;color: #959595;font-weight: 400;font-family: "Lato";}
+.top-bar,header a,.f-1,.bottom-container a{font-size: 16px;line-height: 24px;color: #959595;font-weight: 400;font-family: "Lato";}
 .top-bar {border-bottom: 1px solid #cfcece;justify-content: space-between;}
 .top-bar-links div {margin-left: 30px;}
 .top-bar-links a {margin-left: 20px;}
@@ -65,21 +65,26 @@ a{text-decoration: none;}
 /* nav-bar */
 .nav-bar {justify-content: space-between;align-items: center;}
 .nav-bar a {margin-left: 30px;}
-.search-box {height: 30px;width: 370px;padding: 0px 10px;}
+.search-bar {height: 30px;width: 370px;padding: 0px 10px; border: 1px solid #959595;align-items: center;}
+.search-box {border: none}
+.search-bar i{color: #959595;}
 .shop-cart {position: relative;}
 .cart-counter {height: 15px;width: 15px;font-size: 12px;color: white;background-color: red;border-radius: 50%;position: absolute;top: -10px;left:10px;align-items: center;justify-content: center;}
 
 /* vide0-slider */
-.video-slider {position: relative; justify-content: center;align-items: end;}
+.video-slider {justify-content: center;align-items: end; position: relative;}
+.left-arrow-btn {background-color: black;height: 50px;width: 50px;border: none;position: absolute; top: 45%;left: -0.6%;}
+.right-arrow-btn {background-color: black;height: 50px;width: 50px;border: none;position: absolute;top: 45%; right: -0.6%;}
 .video-text {z-index: 1;position: absolute;}
-/* .video-slider a{position: absolute; z-index: 10; height: 100px;width: 100px;} */
 .video-f1 {font-size: 20px;line-height: 25px;color: #ffffff;font-weight: 700;font-family: "Playfair Display";}
 .video-f2 {font-size: 15px;line-height: 25px;color: #ffffff;font-weight: 400;font-family: "Lato";}
-/* .video-slider i{font-size: larger;} */
+
 
 /* spring-girls */
 .look-book-item {margin-top: 100px;}
 .look-book-girl {width: 570px;height: 630px;position: relative;}
+.img-5 {background-image: url(./assets/img/spring-girl.jpg);}
+.img-6 {background-image: url(./assets/img/boyz.jpg);}
 .look-book-img {height: 100%;width: 470px;background-color: #c0bcbc;}
 .look-book-text {position: absolute; top: 350px;}
 .look-book-f1 {font-size: 72px;line-height: 85px;color: #000000;font-weight: 400;font-family: "Playfair Display";text-transform: capitalize;}
@@ -88,10 +93,13 @@ a{text-decoration: none;}
 /* new-item */
 /* .items-container {margin: auto;} */
 .sub-item-container {width: 370px; justify-content: space-between;}
-.item-img {}
 .bg-img{background-repeat: no-repeat;background-size: 100% 100%;width: 170px;height: 200px;justify-content: center;align-items: end;}
+.img-prop {background-repeat: no-repeat;background-size: 100% 100%;}
 .img-1 {background-image: url(./assets/img/LIGHT\ PINK\ PARKA.jpg);}
-.bg-img:hover {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./assets/img/LIGHT\ PINK\ PARKA.jpg);}
+.img-2 {background-image: url(./assets/img/DENIM\ DRESS.jpg);}
+.img-3 {background-image: url(./assets/img/NY.C\ SWEATSHIRT\ 2.jpg);}
+.img-4 {background-image: url(./assets/img/DENIM\ SHORTS.jpg);}
+
 /* .item-img:hover  */
 .look-book-f3 {font-size: 20px;color: #000000;font-weight: 900;font-family: "Lato";text-transform: uppercase;}
 .look-book-f4 {font-size: 16px;letter-spacing: 2px;color: #000000;font-weight: 400;font-style: italic;font-family: "Playfair Display";text-transform: capitalize;}
@@ -106,19 +114,24 @@ a{text-decoration: none;}
 /* end-seanson */
 .end-season-container {width: 100%; height: 450px;background-color: #959595;position: relative;}
 .end-season-text {position: absolute;top: 325px;left: 420px;}
-
+.img-10 { background-image:linear-gradient(rgb(255, 255, 255,0.1),rgb(255, 255, 255,0.5)), url(./assets/img/sale\ season.jpg);}
 /* module */
 .module {height: 160px; grid-template-columns: 33.33% 33.33% 33.33%;;margin-top: 150px;}
 .grid-item {border: 1px solid black;align-items: center;}
-.module-img {height: 100px;width: 100px;background-color: #959595;margin: 0px 30px;}
+.module-img i{font-size: 50px;color: #504f4f;}
+.module-img {height: 100px;width: 100px;background-color: #959595;margin: 0px 30px;justify-content: center;align-items: center;}
 .f6 {font-size: 16px;color: #000000;font-weight: 700;font-family: "Lato";text-transform: uppercase;}
+.img-7 {background-image: url(./assets/img/new-tshirt.jpg);}
+.img-8 {background-image: url(./assets/img/Kid\ Accessories.jpg);}
 
 /* news letter */
 .news-letter-container {height: 368px;width: 770px;background-color: #959595;padding: 50px;}
-.email-box {width: 70%;height: 60px;padding: 0px 30px;margin: 0px;border: none;}
-.submit-btn {width: 29%;height: 60px;background-color: #cf2226;text-align: center;font-size: 20px;line-height: 30px;color: #ffffff;font-weight: 700;font-family: "Playfair Display";margin: 0px;border: none;text-transform: uppercase;}
+.email-box {width: 70%;height: 60px;padding: 0px 30px;margin: 0px;border: none;font-size: 20px;}
+.email a {width: 29%;height: 60px;background-color: #cf2226;font-size: 20px;line-height: 30px;color: #ffffff;font-weight: 700;font-family: "Playfair Display";margin: 0px;border: none;text-transform: uppercase;align-items: center;justify-content: center;}
 .f7{font-size: 72px;line-height: 85px;color: #000000;font-weight: 400;font-family: "Playfair Display";text-transform: capitalize;margin-bottom: 20px;}
 .news-letter-container p {width: 420px;height: 52px;font-size: 16px;line-height: 30px;color: #000000;font-weight: 400;font-style: italic;font-family: "Playfair Display";margin-top: revert;}
+.email {justify-content: center;}
+
 /* instagram */
 .instagram {width: 368px; grid-template-columns:  122px 122px 122px;grid-template-rows: 122px 122px 122px;gap: 1px;position: relative;}
 .insta-items {background-color: #959595;}
@@ -128,3 +141,5 @@ a{text-decoration: none;}
 
 .bottom-left-link a{margin-right: 20px;}
 .bottom-right-link a{margin-left: 20px;}
+.up-arrow-btn {background-color: black;height: 50px;width: 50px;border: none;}
+.arrow{color: white;font-size: 20px;}

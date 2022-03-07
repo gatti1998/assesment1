@@ -87,10 +87,17 @@ left: 150px;border-radius: 50%;background-image: url(./assets/img/countdown-imag
 .qsn-icon {height: 70px; width: 70px;border: 1px solid white;border-radius: 50px;margin: 0px;color: white;align-items: center;justify-content:center;font-size: 25px}
 /* footer */
 .botm-con {width: 80%; margin: auto auto;padding-top: 30px;justify-content: space-evenly;}
-.botm-lnk {height: 60px;width: 60px; border: 1px solid #7c7c7c;border-radius: 50%;background-position: center;background-repeat: no-repeat;padding: 30px;}
+.botm-lnk {height: 60px;width: 60px; border: 1px solid #7c7c7c;border-radius: 50%;background-color: white;background-repeat: no-repeat;}
+.bg-img {background-image: url(./assets/img/iiicon.png);}
 .botm-lnk:hover {background-color: #162459;color: white;}
-.back-btn{background-image: url(./assets/img/logout-128.2bfd8f0bb4fbd0dfeadd.png);background-size: 44px;}
-.profile{background-image: url(./assets/img/profile.jpg);background-size:60px;}
-.hammer {background-image: url(./assets/img/hammer.jpg);background-size: 60px;}
-.tool{background-image: url(./assets/img/tool.jpg);background-size: 60px;}
-.buy-it{background-image: url(./assets/img/but-it.jpg);background-size:60px ;}
+.back-btn{background-image: url(./assets/img/logout-128.2bfd8f0bb4fbd0dfeadd.png); background-size: 44px;background-position: center;}
+.profile{background-size: 310px;background-position: -51px -223px;}
+.hammer {background-size: 310px;background-position: -116px -223px;}
+.tool {background-size: 310px;background-position: -185px -223px;}
+.buy-it {background-size: 310px;background-position: -252px -220px;}
+/* hover */
+/* .back-btn:hover {background-image: url(./assets/img/logout-128.2bfd8f0bb4fbd0dfeadd.png); background-size: 44px;background-position: center;} */
+.profile:hover {background-size: 310px;background-position: -51px -152px;}
+.hammer:hover  {background-size: 310px;background-position: -116px -152px;}
+.tool:hover  {background-size: 310px;background-position: -185px -152px;}
+.buy-it:hover  {background-size: 310px;background-position: -252px -149px;}
