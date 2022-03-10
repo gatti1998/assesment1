@@ -104,17 +104,39 @@ a{text-decoration: none;}
 /* look-book */
 .f9 {font-size: 72px;line-height: 85px;color: #000000;font-weight: 400;font-family: "Playfair Display";}
 .look-book {width: 50%;height: 630px;background-color: #959595;background-repeat: no-repeat;justify-content: center;align-items: center;flex-direction: column;}
-.look-book-boy {background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./assets/img//music-new.jpg);background-size: 100% 115%;}
-.look-book-girls {background-image: url(./assets/img/spring-new.jpg);background-size: 100% 130%;}
+.look-book-boy {background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./assets/img/music-boyz.jpg);background-size: 100% 115%;}
+.look-book-girls {background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./assets/img/spring-new.jpg);background-size: 115% 100%;}
 
 
 /* blog-container */
 .blog-container  {justify-content: space-between;}
 .blog-item {width: 30%;}
-.blog-img {height: 120px;background-color: #959595;align-items: end;}
-.f10 {font-size: 12px;color: #1ba3d9;font-weight: 400;font-family: "Lato";}
+.blog-img {height: 120px;background-color: #cccccc;align-items: end;background-repeat: no-repeat;background-size: 100% 100%;}
+.blog-img-1 {background-image: url(./assets/img/blog\ img\ 1.jpg);}
+.blog-img-2 {background-image: url(./assets/img/blog\ img\ 3.jpg);}
+.blog-img-3 {background-image: url(./assets/img/blog\ img\ 2.jpg);} 
+.f10 {font-size: 12px;color: #1ba3d9;font-weight: 400;font-family: "Lato";margin-top: 20px;}
+
+/* service-container */
+.service-container {margin: 100px auto;}
+
+/* news-letter */
+.news-letter {height: 370px; width: 770px;background-color: #cccccc;padding: 50px;}
+.email-box {width: 100%;height: 60px;margin: 35px 0px;}
+.email {height: 100%;width: 75%;margin: 0px;padding: 0 6%;border: none;}
+.submit-btn {height: 100%;width: 25%;background-color: #cf2226;font-size: 20px;line-height: 30px;color: #ffffff;font-weight: 700;font-family: "Playfair Display";margin: 0px;border: none;text-transform: uppercase;align-items: center;justify-content: center}
 
 
+/* instagram */
+.instagram {height: 370px;width: 370px; grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 1fr 1fr 1fr;gap: 1px;border: none;position: relative;}
+.insta-item {background-color: #cccccc;margin: 0px;}
+.insta-tag {color: white;background-color: black;padding: 5px 10px;position: absolute;bottom: 0px;}
+
+/* site-bottom */
+.bottom-left-link li{margin-right: 20px;}
+.bottom-right-link li{margin-left: 20px;}
+.button-up {height: 50px;width: 50px;border: none;background-color: black;}
+.arrow-up {color: white;font-size: 10px;}
 
 /* -------------------------------- */
 /* -------------------------------- */
@@ -151,8 +173,28 @@ a{text-decoration: none;}
     .look-book-girls {margin-top: 20px;}
 
     /* blog-container */
-    .blog-item {width: 100%;margin-top: 20px;padding-bottom: 10px;border-bottom: 1px solid #ccc9c9;}
+    .blog-item {width: 100%;margin-top: 20px;padding-bottom: 10px;border-bottom: 1px solid #ccc9c9; text-align: center;}
+    
 
     /* service-container */
-    .free-return {margin-top: 40px;padding-top: 40px;border-top: 1px solid #ccc9c9;}
+    .free-ship {text-align: left;}
+    .free-return {margin-top: 40px;padding-top: 40px;border-top: 1px solid #ccc9c9;text-align: right;}
+    .service-container {margin: 50px 0px;}
+
+    /* news-letter */
+    .news-letter {width: 100%;height: 200px;padding: 10px;}
+    .news-letter-head {font-size: 40px;line-height: 40px;margin-top: 10px;}
+    .email-box {height: 30px;margin: auto;}
+    .submit-btn {font-size: 15px;}
+    .news-letter p {font-size: 10px;}
+
+    /* instagram */
+    .instagram {margin: auto; margin-top: 40px;height: 320px;width: 320px;}
+    .insta-tag {font-size: 10px;}
+
+    /* site-bottom */
+    /* .site-bottom {justify-content: space-between;} */
+    .bottom-left-link {flex-direction: column;}
+    .bottom-right-link {flex-direction: column;text-align: center;}
+    .button-up {align-self: end;}
     }
