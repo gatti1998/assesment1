@@ -1,0 +1,145 @@
+* {margin: 0; padding: 0; box-sizing: border-box}
+body {width: 1170px; margin: 0 auto; max-width: 100%;}
+img {max-width: 1000%}
+ul,li{list-style: none}
+a{text-decoration: none;}
+/* Utility */
+.d-flex {display: flex; flex-wrap: wrap;}
+.d-block {display: block;}
+.d-grid {display: grid;}
+.align-items-center {align-items: center;}
+.ma {margin: auto;}
+.ml-auto {margin-left: auto;}
+.mr-auto {margin-right: auto;}
+
+.mt-1 {margin-top: 5px;}
+.mt-2 {margin-top: 10px;}
+.mt-3 {margin-top: 15px;}
+.mt-4 {margin-top: 20px;}
+.mt-50 {margin-top: 50px;}
+
+.mb-1 {margin-bottom: 5px;}
+.mb-2 {margin-bottom: 10px;}
+.mb-3 {margin-bottom: 15px;}
+.mb-4 {margin-bottom: 20px;}
+
+.ml-1 {margin-left: 5px;}
+.ml-2 {margin-left: 10px;}
+.ml-3 {margin-left: 15px;}
+.ml-4 {margin-left: 20px;}
+
+.mr-1 {margin-right: 5px;}
+.mr-2 {margin-right: 10px;}
+.mr-3 {margin-right: 15px;}
+.mr-4 {margin-right: 20px;}
+
+.pt-1 {padding-top: 5px;}
+.pt-2 {padding-top: 10px;}
+.pt-3 {padding-top: 15px;}
+.pt-4 {padding-top: 20px;}
+
+.pb-1 {padding-bottom: 5px;}
+.pb-2 {padding-bottom: 10px;}
+.pb-3 {padding-bottom: 15px;}
+.pb-4 {padding-bottom: 20px;}
+
+.pl-1 {padding-left: 5px;}
+.pl-2 {padding-left: 10px;}
+.pl-3 {padding-left: 15px;}
+.pl-4 {padding-left: 20px;}
+
+.pr-1 {padding-right: 5px;} 
+.pr-2 {padding-right: 10px;}
+.pr-3 {padding-right: 15px;}
+.pr-4 {padding-right: 20px;}
+
+.text-center {text-align: center;}
+.container {width: 100%}
+
+/* top-bar */
+.top-bar,header a,.f-1,.bottom-container a{font-size: 16px;line-height: 24px;color: #959595;font-weight: 400;font-family: "Lato";}
+.top-bar {border-bottom: 1px solid #cfcece;justify-content: space-between;}
+.top-bar-links div {margin-left: 30px;}
+.top-bar-links a {margin-left: 20px;}
+
+/* nav-bar */
+.nav-bar {justify-content: space-between;align-items: center;}
+.nav-bar a {margin-left: 30px;}
+.search-bar {height: 30px;width: 370px;padding: 0px 10px; border: 1px solid #959595;align-items: center;}
+.search-box {border: none}
+.search-bar i{color: #959595;}
+.shop-cart {position: relative;}
+.cart-counter {height: 15px;width: 15px;font-size: 12px;color: white;background-color: red;border-radius: 50%;position: absolute;top: -10px;left:10px;align-items: center;justify-content: center;}
+
+/* vide0-slider */
+.video-slider {justify-content: center;align-items: end; position: relative;}
+.left-arrow-btn {background-color: black;height: 50px;width: 50px;border: none;position: absolute; top: 45%;left: -0.6%;}
+.right-arrow-btn {background-color: black;height: 50px;width: 50px;border: none;position: absolute;top: 45%; right: -0.6%;}
+.video-text {z-index: 1;position: absolute;}
+.video-f1 {font-size: 20px;line-height: 25px;color: #ffffff;font-weight: 700;font-family: "Playfair Display";}
+.video-f2 {font-size: 15px;line-height: 25px;color: #ffffff;font-weight: 400;font-family: "Lato";}
+
+
+/* spring-girls */
+.look-book-item {margin-top: 100px;}
+.look-book-girl {width: 570px;height: 630px;position: relative;}
+.img-5 {background-image: url(./assets/img/spring-girl.jpg);}
+.img-6 {background-image: url(./assets/img/boyz.jpg);}
+.look-book-img {height: 100%;width: 470px;background-color: #c0bcbc;}
+.look-book-text {position: absolute; top: 350px;}
+.look-book-f1 {font-size: 72px;line-height: 85px;color: #000000;font-weight: 400;font-family: "Playfair Display";text-transform: capitalize;}
+.look-book-f2 {font-size: 16px;color: #000000;font-weight: 400;font-family: "Lato";text-transform: uppercase;}
+
+/* new-item */
+/* .items-container {margin: auto;} */
+.sub-item-container {width: 370px; justify-content: space-between;}
+.bg-img{background-repeat: no-repeat;background-size: 100% 100%;width: 170px;height: 200px;justify-content: center;align-items: end;}
+.img-prop {background-repeat: no-repeat;background-size: 100% 100%;}
+.img-1 {background-image: url(./assets/img/LIGHT\ PINK\ PARKA.jpg);}
+.img-2 {background-image: url(./assets/img/DENIM\ DRESS.jpg);}
+.img-3 {background-image: url(./assets/img/NY.C\ SWEATSHIRT\ 2.jpg);}
+.img-4 {background-image: url(./assets/img/DENIM\ SHORTS.jpg);}
+
+/* .item-img:hover  */
+.look-book-f3 {font-size: 20px;color: #000000;font-weight: 900;font-family: "Lato";text-transform: uppercase;}
+.look-book-f4 {font-size: 16px;letter-spacing: 2px;color: #000000;font-weight: 400;font-style: italic;font-family: "Playfair Display";text-transform: capitalize;}
+.look-book-f5 {font-size: 14px;color: #000000;font-weight: 400;font-family: "Lato"; text-transform: uppercase;}
+.tag {display: inline-block;text-transform: uppercase;font-size: 10px;color: white;padding: 0px 5px;}
+.tag-yellow {background-color: #fad232;}
+.tag-gray {background-color: #959595;}
+
+/* service */
+.services a{color: #1ba3d9;font-size: 13px;}
+
+/* end-seanson */
+.end-season-container {width: 100%; height: 450px;background-color: #959595;position: relative;}
+.end-season-text {position: absolute;top: 325px;left: 420px;}
+.img-10 { background-image:linear-gradient(rgb(255, 255, 255,0.1),rgb(255, 255, 255,0.5)), url(./assets/img/sale\ season.jpg);}
+/* module */
+.module {height: 160px; grid-template-columns: 33.33% 33.33% 33.33%;;margin-top: 150px;}
+.grid-item {border: 1px solid black;align-items: center;}
+.module-img i{font-size: 50px;color: #504f4f;}
+.module-img {height: 100px;width: 100px;background-color: #959595;margin: 0px 30px;justify-content: center;align-items: center;}
+.f6 {font-size: 16px;color: #000000;font-weight: 700;font-family: "Lato";text-transform: uppercase;}
+.img-7 {background-image: url(./assets/img/new-tshirt.jpg);}
+.img-8 {background-image: url(./assets/img/Kid\ Accessories.jpg);}
+
+/* news letter */
+.news-letter-container {height: 368px;width: 770px;background-color: #959595;padding: 50px;}
+.email-box {width: 70%;height: 60px;padding: 0px 30px;margin: 0px;border: none;font-size: 20px;}
+.email a {width: 29%;height: 60px;background-color: #cf2226;font-size: 20px;line-height: 30px;color: #ffffff;font-weight: 700;font-family: "Playfair Display";margin: 0px;border: none;text-transform: uppercase;align-items: center;justify-content: center;}
+.f7{font-size: 72px;line-height: 85px;color: #000000;font-weight: 400;font-family: "Playfair Display";text-transform: capitalize;margin-bottom: 20px;}
+.news-letter-container p {width: 420px;height: 52px;font-size: 16px;line-height: 30px;color: #000000;font-weight: 400;font-style: italic;font-family: "Playfair Display";margin-top: revert;}
+.email {justify-content: center;}
+
+/* instagram */
+.instagram {width: 368px; grid-template-columns:  122px 122px 122px;grid-template-rows: 122px 122px 122px;gap: 1px;position: relative;}
+.insta-items {background-color: #959595;}
+.insta-tag {background-color: #000000; color: white;font-size: 14px;font-style: italic;align-items: center;padding: 5px 5px; position: absolute;bottom: 0px;}
+.instagram i{margin: 0px 5px;}
+/* bottom */
+
+.bottom-left-link a{margin-right: 20px;}
+.bottom-right-link a{margin-left: 20px;}
+.up-arrow-btn {background-color: black;height: 50px;width: 50px;border: none;}
+.arrow{color: white;font-size: 20px;}
