@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz</title>
+</head>
+
+<body>
+
+    <form action="" method="GET" class="form-container d-flex ml-auto mr-auto">
+        <div>
+            <h2>Registration Form</h2>
+        </div>
+        <div class="details-input d-flex">
+            <input class="First-name" value="" type="text" name="FirstName" placeholder="Enter Your First Name"
+                required="required" pattern="[a-z]{3,10}">
+            <p class="mt-2">First Names must be 3-10 characters in length.</p>
+            <input class="Last-name" value="" type="text" name="LastName" placeholder="Enter Your Last Name"
+                required="required" pattern="[a-z]{3,10}">
+            <p class="mt-2">Last Names must be 3-10 characters in length.</p>
+            <input class="Roll-number" value="" type="text" name="RollNumber" placeholder="Enter Your Roll Number"
+                required="required" pattern="[0-9]{0,2}">
+            <p class="mt-2">Roll Number must be in number formet.</p>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <script>
+        function getVal() { 
+            const fn = document.getElementsByClassName("First-name").value;
+            console.log(fn);
+        }
+        getVal();
+
+    </script>
+</body>
+
+</html>

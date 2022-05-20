@@ -1,0 +1,15 @@
+/* body{display: flex;justify-content: center;align-items: center;height: 100vh;}
+
+.circle{display: flex;justify-content: center;align-items: center;height: 200px;width: 200px;border-radius: 50%;background-color: aqua;color: black;font-size: 1.5 rem;cursor: pointer;transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;}
+
+.circle:hover {transform: scale(3);} */
+
+
+/* 88888888888888888888888888888888888 */
+
+body{display: flex;justify-content: center;align-items: center;height: 100vh;}
+
+.emoji {font-size: 500px;cursor: pointer;user-select: none;}
+.close{display: none;}
+.open{display: none;}
+.active {display: block;}

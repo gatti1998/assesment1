@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+$red: #FF2B2B;
+$blue: #3347FF;
+$black: #000000;
+$gray: #909090;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    padding: 0 100px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+// nav-bar
+.nav-bar-container {
+    background-color: white;
+    display: flex;
+    padding: 30px 100px;
+
+    .left {
+        flex: 1;
+
+        .logo-container {
+            height: 50px;
+            width: 100px;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    .right {
+        flex: 5;
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+
+            li {
+                margin: 0px 30px;
+            }
+        }
+    }
+}
+
+// banner
+.banner-container {
+    margin-top: 160px;
+    display: flex;
+    align-content: center;
+
+    .left {
+        flex: 1;
+
+        h1 {
+            font-size: 48px;
+            margin-top: 100px;
+        }
+
+        p {
+            margin: 20px 0px;
+            text-align: justify;
+            color: $gray;
+        }
+
+        .form-group-container {
+            margin-top: 50px;
+
+            .form-group {
+                display: flex;
+
+                input {
+                    height: 50px;
+                    padding: 5px 20px;
+                    margin-right: 10px;
+                    border-radius: 5px;
+                    border: 1px solid #afafaf;
+
+                    &::placeholder {
+                        color: #afafaf;
+                    }
+                }
+
+                .submit {
+                    background-color: #3347FF;
+                    color: white;
+                }
+            }
+
+
+        }
+
+        .arrow-container {
+            display: flex;
+            margin-top: 50px;
+
+            .arrow {
+                height: 50px;
+                width: 50px;
+                border: 1px solid black;
+                border-radius: 5px;
+                margin-right: 10px;
+
+                svg {
+                    padding: 10px;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+
+    }
+
+    .right {
+        flex: 1;
+
+        .img-container {
+            height: 500px;
+            width: 700px;
+            margin-left: auto;
+
+            img{
+            
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+// our-clients
+
+.client-container {
+        margin-top: 150px;
+    h2 {
+        text-decoration: underline;
+    }
+
+    .clients-logo {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+}
+
+// our-promise
+
+.our-promise-container {
+    margin-top: 100px;
+
+    h2 {
+        text-decoration: underline;
+    }
+
+    .promise {
+        display: flex;
+
+        &:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+
+        .promise-content {
+            margin-top: 50px;
+            flex: 2;
+
+            p {
+                margin-top: 10px;
+                text-align: justify;
+                color: $gray;
+
+            }
+        }
+
+        .promise-img-container {
+            flex: 1;
+            max-height: 300px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+// testimonial
+.testimonial-container {
+    margin-top: 50px;
+
+    .client-review-container {
+        background-color: #3347FF;
+        border-radius: 5px;
+        display: flex;
+        color: white;
+        padding: 50px;
+        margin-top: 30px;
+        align-items: center;
+
+        .left {
+            flex: 2;
+
+            span {
+                display: block;
+            }
+
+            p {
+                margin-top: 50px;
+                width: 90%;
+                text-align: justify;
+            }
+        }
+
+        .right {
+            flex: 1;
+
+            .img-container {
+                margin: auto;
+                height: 375px;
+                width: 375px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+* {margin: 0; padding: 0; box-sizing: border-box}
+body {max-width: 1170px; margin: 0 auto;width: 100%;}
+img {max-width: 100%}
+ul,li{list-style: none}
+a {text-decoration: none;}
+/* .container {margin: 0;padding: 0;} */
+/* .con {width: 100%;} */
+
+
+/* utility */
+.mt-50 {margin-top: 50px;}
+.mt-100 {margin-top: 100px;}
+
+
+/* top-bar */
+.f1,.top-bar a {font-size: 12px;line-height: 24px;color: #959595;font-weight: 400;font-family: "Lato";}
+.top-bar {border-bottom: 1px solid #d8d8d8;}
+.dropdown a {margin-right: 15px;}
+.sign-up a {margin-left: 15px;}
+
+/* nav-bar */
+.f2,.nav-bar a {font-size: 14px;color: #000000;font-weight: 400;font-family: "Lato";text-transform: uppercase;}
+.cart {position: relative;}
+.cart-data-counter {position: absolute;bottom: 15px;left: 10px;height: 12px;width: 12px;background-color: red;color: white;font-size: 10px;justify-content: center;align-items: center; border-radius: 50%;}
+
+/* slider */
+.s-img {height: 600px;}
+
+/* look-book */
+.f3 {font-size: 72px;line-height: 85px;color: #000000;font-weight: 400;font-family: "Playfair Display";text-transform: capitalize;}
+.f4 {font-size: 16px;color: #000000;font-weight: 700;font-family: "Lato"; text-transform: uppercase;}
+.look-book {height: 630px; width: 470px;margin-left: 100px;background-repeat: no-repeat;background-position: center;background-size: cover;background-color: aqua;}
+.look-book-sub-container {position: relative;}
+.look-book-text {position: absolute; bottom: 5%;}
+
+.video-camp {width: 470px;}
+.video {width: 100%;height: 260px;}
+
+/* new-item */
+.f5 {font-size: 20px;color: #000000;font-weight: 900;font-family: "Lato";text-transform: uppercase;}
+.f6 {font-size: 16px;letter-spacing: 2px;color: #000000;font-weight: 400;font-style: italic;font-family: "Playfair Display";}
+.new-item-sub-container {width: 270px;}
+.new-item-bg-img {height: 320px;width: 100%;background-repeat: no-repeat;background-size: cover;background-position: center;background-color: #000000;}
+.tag {color: white; font-size: 10px;text-transform: uppercase;padding: 2px 5px;margin: 0;}
+.tag-blue {background-color: #5064fa;}
+
+/* sale-season */
+.sale-season-con {width: 100%;height: 460px;background-color: #959595; position: relative;}
+.sale-season-text {position: absolute;bottom: -100px;}
+
+
+
+
+/* 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+/* 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+
+/* @media only screen and (max-width: 750px) {
+    *{margin: 0;padding: 0;margin: auto;}
+    .top-bar {flex-direction: column;}
+    .announcement {border-bottom: 1px solid #d8d8d8;}
+    .dropdown,.ship,.sign-up {flex-direction: column;} */ 
+
+    
+}
+
